@@ -1,11 +1,15 @@
-/*Implemente uma tabela hash em C que permita armazenar pares chave-valor. A tabela deve ser capaz de lidar com colisões usando uma estratégia de encadeamento separado. A implementação da tabela hash deve conter as seguintes funções:
+/*Implemente uma tabela hash em C que permita armazenar pares chave-valor. 
+A tabela deve ser capaz de lidar com colisões usando uma estratégia de encadeamento separado.
+A implementação da tabela hash deve conter as seguintes funções:
 
 hash_table_create: Cria uma nova tabela hash com um tamanho especificado.
 hash_table_put: Insere um novo par chave-valor na tabela hash.
 hash_table_get: Retorna o valor associado a uma determinada chave na tabela hash.
 hash_table_remove: Remove o par chave-valor associado a uma determinada chave na tabela hash.
 
-A tabela hash deve ser implementada usando uma matriz de listas ligadas, onde cada elemento da matriz é uma lista ligada que contém todos os pares chave-valor que foram mapeados para esse índice da matriz. A função hash deve ser implementada usando uma função de dispersão simples, como a função módulo.
+A tabela hash deve ser implementada usando uma matriz de listas ligadas, 
+onde cada elemento da matriz é uma lista ligada que contém todos os pares chave-valor que foram mapeados para esse índice da matriz. 
+A função hash deve ser implementada usando uma função de dispersão simples, como a função módulo.
 */
 
 #include <stdio.h>
